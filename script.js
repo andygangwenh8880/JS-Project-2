@@ -4,6 +4,7 @@ $.ajax({
     success: function(data) {
         document.write("<h1> Water Consumption in New York City (1979 - 2019)");
         var year = Math.floor(prompt("Please input a year in between 1978 and 2020"));
+            document.write("<br>");
            if(year <= 1978){
                 document.write("<br>There is no data for the year " + year +"!");
             } else if(year >= 2020){
