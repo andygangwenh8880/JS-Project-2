@@ -23,7 +23,7 @@ $.ajax({
                 document.write("Population in New York City: " + Math.floor(data[i].new_york_city_population).toLocaleString() + " people");
                 document.write("<br>");
                 document.write("<br>");
-                document.write(" Water Consumption: " + Number(data[i].nyc_consumption_million_gallons_per_day).toLocaleString() + " gallons of water per person per day");
+                document.write(" Water Consumption: " + Number(data[i].nyc_consumption_million_gallons_per_day).toLocaleString() + " gallons of water  per day");
             }
 
         }
