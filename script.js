@@ -15,11 +15,11 @@ $.ajax({
             function converter(gallons){
                 return gallons*3.78541;
             }
-            // loops through API and store info in array
+            // Loops through API and store info from API into an array
         for(i = 0; i < data.length; i++){
             var Array = [];
             Array.push(data[i].year + ", " + data[i].new_york_city_population + ", " + data[i].nyc_consumption_million_gallons_per_day);
-            // Find users desired year and provide information of water comsumption of that year
+            // Find user's desired year and provide information of water comsumption of that year
             if(year == data[i].year){
                 document.write("<br>");
                 document.write("<br>");
